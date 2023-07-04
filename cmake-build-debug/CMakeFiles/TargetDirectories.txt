@@ -1,0 +1,5 @@
+/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/Chandler-vs-Janices.dir
+/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/Chandler-vs-Janices_autogen_timestamp_deps.dir
+/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/Chandler-vs-Janices_autogen.dir

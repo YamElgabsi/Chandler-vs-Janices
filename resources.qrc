@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>/Users/yam/CLionProjects/Chandler-vs-Janices/Resources/Sounds/BG.mp3</file>
+        <file>/Users/yam/CLionProjects/Chandler-vs-Janices/Resources/Sounds/SHOT.wav</file>
+        <file>/Users/yam/CLionProjects/Chandler-vs-Janices/Resources/Images/BG.jpg</file>
+        <!-- Add more files or folders here -->
+    </qresource>
+</RCC>

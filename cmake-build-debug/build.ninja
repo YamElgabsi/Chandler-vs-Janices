@@ -1,0 +1,273 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Chandler-vs-Janices
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Chandler-vs-Janices
+
+
+#############################################
+# Order-only phony target for Chandler-vs-Janices
+
+build cmake_object_order_depends_target_Chandler-vs-Janices: phony || Chandler-vs-Janices_autogen Chandler-vs-Janices_autogen/mocs_compilation.cpp Chandler-vs-Janices_autogen/timestamp Chandler-vs-Janices_autogen_timestamp_deps qrc_resources.cpp
+
+build CMakeFiles/Chandler-vs-Janices.dir/Chandler-vs-Janices_autogen/mocs_compilation.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Chandler-vs-Janices_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Chandler-vs-Janices_autogen
+
+build CMakeFiles/Chandler-vs-Janices.dir/main.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/main.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/Player.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/Player.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/Player.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/Bullet.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/Bullet.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/Bullet.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/Enemy.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/Enemy.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/Enemy.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/Game.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/Game.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/Game.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/Score.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/Score.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/Score.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/Health.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/Health.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/Health.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+build CMakeFiles/Chandler-vs-Janices.dir/qrc_resources.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/qrc_resources.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/qrc_resources.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/HighScore.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/HighScore.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/HighScore.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+build CMakeFiles/Chandler-vs-Janices.dir/Sources/MyQObjectModel.cpp.o: CXX_COMPILER__Chandler-vs-Janices_Debug /Users/yam/CLionProjects/Chandler-vs-Janices/Sources/MyQObjectModel.cpp || cmake_object_order_depends_target_Chandler-vs-Janices
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Chandler-vs-Janices.dir/Sources/MyQObjectModel.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/include -iframework /opt/homebrew/opt/qt5/lib -isystem /opt/homebrew/opt/qt5/lib/QtCore.framework/Headers -isystem /opt/homebrew/opt/qt5/./mkspecs/macx-clang-arm64 -isystem /opt/homebrew/opt/qt5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/Headers -isystem /opt/homebrew/opt/qt5/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chandler-vs-Janices.dir/Sources
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Chandler-vs-Janices
+
+
+#############################################
+# Link the executable Chandler-vs-Janices
+
+build Chandler-vs-Janices: CXX_EXECUTABLE_LINKER__Chandler-vs-Janices_Debug CMakeFiles/Chandler-vs-Janices.dir/Chandler-vs-Janices_autogen/mocs_compilation.cpp.o CMakeFiles/Chandler-vs-Janices.dir/main.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/Player.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/Bullet.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/Enemy.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/Game.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/Score.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/Health.cpp.o CMakeFiles/Chandler-vs-Janices.dir/qrc_resources.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/HighScore.cpp.o CMakeFiles/Chandler-vs-Janices.dir/Sources/MyQObjectModel.cpp.o | /opt/homebrew/opt/qt5/lib/QtWidgets.framework/QtWidgets /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/QtMultimedia /opt/homebrew/opt/qt5/lib/QtGui.framework/QtGui /opt/homebrew/opt/qt5/lib/QtNetwork.framework/QtNetwork /opt/homebrew/opt/qt5/lib/QtCore.framework/QtCore || Chandler-vs-Janices_autogen Chandler-vs-Janices_autogen_timestamp_deps
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/qt5/lib/QtWidgets.framework/QtWidgets  /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/QtMultimedia  /opt/homebrew/opt/qt5/lib/QtGui.framework/QtGui  /opt/homebrew/opt/qt5/lib/QtNetwork.framework/QtNetwork  /opt/homebrew/opt/qt5/lib/QtCore.framework/QtCore
+  LINK_PATH = -F/opt/homebrew/opt/qt5/lib
+  OBJECT_DIR = CMakeFiles/Chandler-vs-Janices.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Chandler-vs-Janices
+  TARGET_PDB = Chandler-vs-Janices.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug && "/Users/yam/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug && "/Users/yam/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/yam/CLionProjects/Chandler-vs-Janices -B/Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for Chandler-vs-Janices_autogen_timestamp_deps
+
+build Chandler-vs-Janices_autogen_timestamp_deps: phony CMakeFiles/Chandler-vs-Janices_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for Chandler-vs-Janices_autogen
+
+build Chandler-vs-Janices_autogen: phony CMakeFiles/Chandler-vs-Janices_autogen Chandler-vs-Janices_autogen/timestamp Chandler-vs-Janices_autogen/mocs_compilation.cpp Chandler-vs-Janices_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for qrc_resources.cpp
+
+build qrc_resources.cpp | ${cmake_ninja_workdir}qrc_resources.cpp: CUSTOM_COMMAND /Users/yam/CLionProjects/Chandler-vs-Janices/resources.qrc /Users/yam/CLionProjects/Chandler-vs-Janices/Resources/Sounds/BG.mp3 /Users/yam/CLionProjects/Chandler-vs-Janices/Resources/Sounds/SHOT.wav /Users/yam/CLionProjects/Chandler-vs-Janices/Resources/Images/BG.jpg resources.qrc.depends || Chandler-vs-Janices_autogen Chandler-vs-Janices_autogen_timestamp_deps
+  COMMAND = cd /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug && /opt/homebrew/opt/qt5/bin/rcc --name resources --output /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/qrc_resources.cpp /Users/yam/CLionProjects/Chandler-vs-Janices/resources.qrc
+  DESC = Generating qrc_resources.cpp
+  restat = 1
+
+
+#############################################
+# Custom command for Chandler-vs-Janices_autogen/timestamp
+
+build Chandler-vs-Janices_autogen/timestamp Chandler-vs-Janices_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}Chandler-vs-Janices_autogen/timestamp ${cmake_ninja_workdir}Chandler-vs-Janices_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /opt/homebrew/opt/qt5/bin/moc /opt/homebrew/opt/qt5/bin/uic || Chandler-vs-Janices_autogen_timestamp_deps
+  COMMAND = cd /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug && "/Users/yam/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_autogen /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/Chandler-vs-Janices_autogen.dir/AutogenInfo.json Debug && "/Users/yam/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E touch /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/timestamp && "/Users/yam/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_transform_depfile Ninja gccdepfile /Users/yam/CLionProjects/Chandler-vs-Janices /Users/yam/CLionProjects/Chandler-vs-Janices /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/Chandler-vs-Janices_autogen/deps /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/d/d268c92766afa2d95a57303545cd882df968d8c573857468cb9e3685e54c1147.d
+  DESC = Automatic MOC and UIC for target Chandler-vs-Janices
+  depfile = /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug/CMakeFiles/d/d268c92766afa2d95a57303545cd882df968d8c573857468cb9e3685e54c1147.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/Chandler-vs-Janices_autogen_timestamp_deps
+
+build CMakeFiles/Chandler-vs-Janices_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Chandler-vs-Janices_autogen_timestamp_deps: phony /opt/homebrew/opt/qt5/bin/moc /opt/homebrew/opt/qt5/lib/QtGui.framework/QtGui /opt/homebrew/opt/qt5/lib/QtCore.framework/QtCore /opt/homebrew/opt/qt5/lib/QtWidgets.framework/QtWidgets /opt/homebrew/opt/qt5/bin/uic /opt/homebrew/opt/qt5/lib/QtMultimedia.framework/QtMultimedia
+
+
+#############################################
+# Phony custom command for CMakeFiles/Chandler-vs-Janices_autogen
+
+build CMakeFiles/Chandler-vs-Janices_autogen | ${cmake_ninja_workdir}CMakeFiles/Chandler-vs-Janices_autogen: phony Chandler-vs-Janices_autogen/timestamp || Chandler-vs-Janices_autogen_timestamp_deps
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yam/CLionProjects/Chandler-vs-Janices/cmake-build-debug
+
+build all: phony Chandler-vs-Janices
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/yam/CLionProjects/Chandler-vs-Janices/CMakeLists.txt /Users/yam/CLionProjects/Chandler-vs-Janices/resources.qrc /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5/Qt5Config.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5/Qt5ConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5/Qt5ModuleLocation.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/yam/CLionProjects/Chandler-vs-Janices/CMakeLists.txt /Users/yam/CLionProjects/Chandler-vs-Janices/resources.qrc /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/yam/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5/Qt5Config.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5/Qt5ConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5/Qt5ModuleLocation.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /opt/homebrew/opt/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
