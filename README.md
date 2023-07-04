@@ -14,6 +14,7 @@ This project is an adaptation of a classic arcade game where the player controls
 - The player has 3 lives, when Janice cross Chandler one life decreases until he have no life.
 - The highest score achieved is saved and displayed to the user. If the player surpasses the current high score, it gets updated accordingly.
 - The game features customized music and sound effects inspired by the TV series "Friends."
+- To edit the screen size and shooting speed, you can modify the GameMacros header file.
 
 ## Technologies Used
 - C++ programming language
