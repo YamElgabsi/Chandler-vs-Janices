@@ -1,8 +1,8 @@
-# Chandler vs. Janices: The Shooter Game
+# Friends: Chandler vs. Janices
 <img src="https://github.com/YamElgabsi/Chandler-vs-Janices/blob/master/Screanshots/Screenshot.png" alt="Register Window" width="200" height="400">
 
 ## Project Description
-This project is an adaptation of a classic arcade game where the player controls the character Chandler from the popular TV series "Friends" and battles against the army of Janice: The Indian Wedding Shooter. The objective is to survive as long as possible and earn points by eliminating enemies.
+This project is an adaptation of a classic arcade game where the player controls the character Chandler from the popular TV series "Friends" and battles against the army of Janice. The objective is to survive as long as possible and earn points by eliminating enemies.
 
 ## Key Features
 - Customized graphics and stunning design elements
